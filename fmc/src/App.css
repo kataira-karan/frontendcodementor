@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+
+  --font-ubuntu : 'Ubuntu', sans-serif;
+  --font-color-white : hsl(0, 0%, 100%);
+  --font-overpass : 'Overpass', sans-serif;
+  --very-light-red :  hsl(13, 100%, 72%);
+
+}

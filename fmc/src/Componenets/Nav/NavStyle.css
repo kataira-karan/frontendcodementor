@@ -1,0 +1,44 @@
+.nav-container{
+    font-family:  var(--font-ubuntu);
+    width: 100vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.4fr 3fr 1fr;
+    align-items: center;
+    height: 10vh;
+}
+
+
+.nav-logo{
+    font-size: 2rem;
+}
+
+.nav-links{
+    display: flex;
+    
+}
+
+.nav-link{
+    margin-inline: 1rem;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.nav-auth-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-auth-link{
+    margin-inline: 1rem ;
+    padding:1rem;
+    transition: 1s all ease-in;
+}
+
+.nav-auth-link:hover{
+    border-radius: 10px;
+    transition: 1s all ease-in; 
+    border:1px solid black;
+}

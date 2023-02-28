@@ -1,0 +1,66 @@
+.banner-container{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    
+}
+
+.banner-overlay{
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to left bottom, #ff344c, #ff5252, #ff695a, #ff7d64, #ff8f70);
+    z-index: -1;
+    border-bottom-left-radius: 10rem;
+    overflow: hidden;
+}
+.banner-overplay-image{
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(to left bottom, #ff3d54, #ff5758, #ff6c5e, #ff7e66, #ff8f70);
+    right: 20vw;
+    
+    transform: scale(6);
+}
+
+.banner-content{
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-header{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--font-color-white);
+    letter-spacing: 8px;
+    font-family: var(--font-ubuntu);
+    margin-bottom: 1rem;
+}
+
+.banner-tagline{
+    color: var(--font-color-white);
+    letter-spacing: 2px;
+    font-family: var(--font-ubuntu);
+    margin-bottom: 3rem;
+}
+
+
+.banner-button{
+    padding:0.5rem;
+    padding-inline: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border:1px solid white;
+    color:white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.primary-button {
+    background-color: white;
+    margin-right: 1rem;
+    color:var(--very-light-red)
+}
