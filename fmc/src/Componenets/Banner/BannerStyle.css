@@ -33,8 +33,9 @@
 }
 
 .banner-header{
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 2.5vw, 4rem); 
     font-weight: bold;
+    text-align: center;
     color: var(--font-color-white);
     letter-spacing: 8px;
     font-family: var(--font-ubuntu);
@@ -46,7 +47,10 @@
     letter-spacing: 2px;
     font-family: var(--font-ubuntu);
     margin-bottom: 3rem;
+    text-align: center;
+    padding-inline: 2rem;
 }
+
 
 
 .banner-button{
@@ -63,4 +67,18 @@
     background-color: white;
     margin-right: 1rem;
     color:var(--very-light-red)
+}
+
+
+@media screen and (max-width:500px) {
+
+    .banner-container{
+        height: 60vh;
+    }
+
+    .banner-header{
+        text-align: center;
+    }
+
+    
 }
