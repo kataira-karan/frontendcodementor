@@ -5,7 +5,13 @@ const LandingPage = () => {
     <div className="landingpage-container">
       <h1>My Front End Mentor Challenges</h1>
 
-      <Link to="/landingpage1"> Landing Page1 </Link>
+      <a href="/landingpage1" target="_blank">
+        {" "}
+        Landing Page1{" "}
+      </a>
+      <a href="/shortify" target="_blank">
+        Shortify{" "}
+      </a>
     </div>
   );
 };

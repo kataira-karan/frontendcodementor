@@ -7,6 +7,7 @@ import "./App.css";
 import LandingPage from "./Componenets/LandingPage";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import LandingPage1 from "./Componenets/LandingPage1/LandingPage1/LandingPage1";
+import ShortifyHome from "./Componenets/Shortify/ShortifyHome";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route exact path="/landingpage1">
             <LandingPage1></LandingPage1>
+          </Route>
+          <Route exact path="/shortify">
+            <ShortifyHome></ShortifyHome>
           </Route>
         </Switch>
       </div>
