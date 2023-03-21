@@ -3,6 +3,7 @@ import Card from "./Card/Card";
 import Nav from "./Nav/Nav";
 import "./ShortifyHomeStyle.css";
 import illustrationworking from "./illustrationworking.svg";
+import UrlInput from "./UrlInput/UrlInput";
 
 const ShortifyHome = () => {
   return (
@@ -30,6 +31,8 @@ const ShortifyHome = () => {
         <Card marginTop="5%"></Card>
         <Card marginTop="10%"></Card>
       </div>
+
+      <UrlInput></UrlInput>
     </div>
   );
 };

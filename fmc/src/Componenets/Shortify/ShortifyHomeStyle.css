@@ -1,5 +1,4 @@
 .shopify-contianer{
-    padding: 2rem 6rem;
     background-color:white;
     font-family: var(--s-font);
     overflow: hidden;
@@ -13,6 +12,8 @@
     display: flex;
     position: relative;
     gap: 1rem;
+    padding: 0rem 6rem;
+
 
     /* background-color: gray; */
 }
@@ -64,6 +65,8 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 3rem;
+    padding: 0rem 6rem;
+    
     margin: auto;
     /* background-color: darkgray ; */
     position: relative;

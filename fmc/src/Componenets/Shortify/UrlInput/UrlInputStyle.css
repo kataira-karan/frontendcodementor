@@ -1,0 +1,51 @@
+.url-input-container{
+    background-color: gray;
+    padding: 2rem 6rem;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.shorten-url-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.8rem;
+    background-color: white;
+    margin : 0.5rem 0;
+    border-radius: 8px;
+}
+
+.url-input-form-container{
+    background-color: antiquewhite;
+    padding:1.5rem 2rem;
+    border-radius: 5px;
+}
+.url-input-form{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.url-input{
+    width: 90%;
+    padding:0.8rem 1rem; 
+    border-radius: 10px;
+    border: none
+}
+
+.new-shorten-url-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.copy-button{
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border:none;
+    background-color: var(--s-cyan);
+    color:white;
+    font-weight: bold;
+}
+
